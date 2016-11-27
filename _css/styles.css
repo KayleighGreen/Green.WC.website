@@ -1,0 +1,170 @@
+@charset "UTF-8";
+
+											/*General Rules*/
+
+body {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0px;
+	background-color:#edeada;
+}
+
+.currentpage {
+color: #edeada;
+font-size:18px;
+padding: 0px;
+}
+
+.maincontent {
+margin-right: 200px;
+margin-left: 200px;
+min-width: 500px;
+min-height: 450px;
+}
+
+#title{
+	text-align: center;
+}
+
+.date{
+	font-weight: bold;
+}
+.name{
+	font-weight: bold;
+}
+
+.disclaimer{
+	font-style: italic;
+}
+
+
+
+										/*Header, Footer, and Navigation Menu*/
+header {
+	background-color: #660000;
+	}
+
+header h1, h2 {
+	text-align: center;
+	color: 	#ff6600;
+	text-transform: uppercase;
+	font-weight: 300;
+	font-size: 50px;
+	letter-spacing: 0.1em;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	margin: 0px;
+}
+
+header h3{
+	text-align: center;
+	color: #ff6600;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 20px;
+	letter-spacing: 0.1em;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	margin: 0px;
+}
+
+#hokiefoot1 {
+	float: left;
+	margin-top: 0px;
+	margin-right: 30px;
+}
+
+#hokiefoot2 {
+	float: right;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+
+nav ul {
+	text-align: center;
+	padding: 10px;
+	color: white;
+	font-weight:bold;
+	background-color: #ff6600;
+	box-shadow: 5px 5px 5px 5px #a9a9a9;
+}
+
+nav li {
+	font-weight:bold;
+	display: inline;
+	margin: 20px;
+}
+
+nav a {
+	color: #660000;
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: white;
+}
+
+nav a:active {
+	color: white;
+}
+
+footer {
+	background-color: #660000;
+}
+
+.footer {
+	color: #ff6600;
+	font-size:12px;
+	position: relative;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 10px;
+}
+
+									/*Images-- separated in case of future changes*/
+
+
+#library{
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 5px 5px #666666;
+}
+
+#session{
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 40px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 5px 5px #666666;
+}
+
+#french{
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 5px 5px #666666;
+}
+
+
+#mandarin{
+	float: left;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: 40px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 5px 5px #666666;
+}
+
+#spanish{
+	float: right;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 40px;
+	border-radius: 12px;
+	box-shadow: 5px 5px 5px 5px #666666;
+}
